@@ -3,7 +3,11 @@
 <head>
     <meta charset="utf-8">
     
-    
+    <script>
+    if (sessionStorage.getItem("unlocked") !== "yes") {
+      window.location.href = "/";
+    }
+  </script>
     
     <!-- Start of headStart -->
     
